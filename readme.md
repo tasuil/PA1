@@ -27,8 +27,9 @@ Description
     Cluster 1: x_coordinate_of_the_center, y_coordinate_of_the_center, number_of_points_in_cluster_1
     Cluster 2: x_coordinate_of_the_center, y_coordinate_of_the_center, number_of_points_in_cluster_2
     Cluster 3: x_coordinate_of_the_center, y_coordinate_of_the_center, number_of_points_in_cluster_3
+
     
-    How to decide which cluster a point belongs to?
+ How to decide which cluster a point belongs to?
     
         • Given a point, calculate distances of this point to three cluster centers.
         • Choose the closest cluster if there is at least X percent difference between the closest one and the next closest
@@ -44,5 +45,6 @@ Description
         including the new point. You have to include the total number of points in the calculation.
         • new_x = (old_x*number_of_points + point_x)/(number_of_points+1)
         
-    Input Format
+   Input Format
+   
     x_coordinate y_coordinate
