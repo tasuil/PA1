@@ -1,6 +1,7 @@
 CSE 102 Programming Assignment 1
 
 Description
+
     • This is an individual assignment. Please do not collaborate
     • If you think that this document does not clearly describe the assignment, ask questions before its too late.
     This is a C Programming assignment. You will write a C program according to the following description.
@@ -12,6 +13,7 @@ Description
     y coordinate.
 
  Program Flow
+ 
     • The program first accepts center points for three clusters (Cluster 1, 2 and 3).
     • After reading center points of three clusters, the program continues to capture point coordinates.
     • Once a point coordinate is captured, the program decides to put this point to a particular cluster.
@@ -21,6 +23,7 @@ Description
     in each cluster is printed.
 
  • Format:
+ 
     Cluster 1: x_coordinate_of_the_center, y_coordinate_of_the_center, number_of_points_in_cluster_1
     Cluster 2: x_coordinate_of_the_center, y_coordinate_of_the_center, number_of_points_in_cluster_2
     Cluster 3: x_coordinate_of_the_center, y_coordinate_of_the_center, number_of_points_in_cluster_3
